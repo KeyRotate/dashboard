@@ -15,14 +15,14 @@ const Banner = () => {
 		localStorage.setItem(banner_closed_key,'true');
 	};
 
-	const announcement = "New Release! Manage DNS with NetBird."
+	const announcement = "New Release! Manage DNS with Milian."
 
 	const announcement_md5 = Md5.hashStr(announcement)
 
 	const linkLearnMore = () => {
 		return (
 			<a
-				href="https://docs.netbird.io/how-to/manage-dns-in-your-network"
+				href="https://docs.keyrotate.com/how-to/manage-dns-in-your-network"
 				className="font-bold underline"
 				target="_blank"
 				rel="noreferrer"

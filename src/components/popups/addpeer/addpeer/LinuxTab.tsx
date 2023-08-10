@@ -12,7 +12,7 @@ export const OtherTab = () => {
       commands: (
         <Button
           type="primary"
-          href={`https://docs.netbird.io/how-to/getting-started#binary-install`}
+          href={`https://docs.keyrotate.com/how-to/getting-started#binary-install`}
           target="_blank"
         >
           Documentation

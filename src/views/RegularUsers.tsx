@@ -31,7 +31,7 @@ import { useGetTokenSilently } from "../utils/token";
 import { actions as groupActions } from "../store/group";
 import { Group } from "../store/group/types";
 import { TooltipPlacement } from "antd/es/tooltip";
-import { capitalize, isLocalDev, isNetBirdHosted } from "../utils/common";
+import { capitalize, isLocalDev, isMilianHosted } from "../utils/common";
 import { usePageSizeHelpers } from "../utils/pageSize";
 import AddServiceUserPopup from "../components/popups/AddServiceUserPopup";
 import InviteUserPopup from "../components/popups/InviteUserPopup";
@@ -396,13 +396,13 @@ export const RegularUsers = () => {
           <Col span={24}>
             <Paragraph>
               Manage users and their permissions.
-              {isNetBirdHosted()
+              {isMilianHosted()
                 ? "Same-domain email users are added automatically on first sign-in."
                 : ""}
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.netbird.io/how-to/add-users-to-your-network"
+                href="https://docs.keyrotate.com/how-to/add-users-to-your-network"
               >
                 {" "}
                 Learn more
@@ -437,7 +437,7 @@ export const RegularUsers = () => {
                   </Space>
                 </Col>
                 <Col xs={24} sm={24} md={5} lg={5} xl={5} xxl={5} span={5}>
-                  {(isNetBirdHosted() || isLocalDev()) && (
+                  {(isMilianHosted() || isLocalDev()) && (
                     <Row justify="end">
                       <Col>
                         <Button type="primary" onClick={onClickInviteUser}>

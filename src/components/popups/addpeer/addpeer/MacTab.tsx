@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Button, Divider, Row, Tooltip, Typography } from "antd";
 import TabSteps from "./TabSteps";
 import { StepCommand } from "./types";
-import { formatNetBirdUP } from "./common";
+import { formatMilianUP } from "./common";
 import { Collapse } from "antd";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { QuestionCircleOutlined } from "@ant-design/icons";
@@ -53,14 +53,14 @@ export const LinuxTab = () => {
           <Button
             style={{ marginRight: "10px" }}
             type="primary"
-            href="https://pkgs.netbird.io/macos/amd64"
+            href="https://pkgs.keyrotate.com/macos/amd64"
           >
             Download for Intel
           </Button>
           <Button
             style={{ marginRight: "10px" }}
             type="default"
-            href="https://pkgs.netbird.io/macos/arm64"
+            href="https://pkgs.keyrotate.com/macos/arm64"
           >
             Download for M1 & M2
           </Button>
@@ -70,7 +70,7 @@ export const LinuxTab = () => {
     } as StepCommand,
     {
       key: 2,
-      title: 'Click on "Connect" from the NetBird icon in your system tray',
+      title: 'Click on "Connect" from the Milian icon in your system tray',
       commands: "",
       copied: false,
       showCopyButton: false,
@@ -102,46 +102,46 @@ export const LinuxTab = () => {
     } as StepCommand,
     {
       key: 2,
-      title: "Install NetBird:",
+      title: "Install Milian:",
       commands: [
         `# for CLI only`,
-        `brew install netbirdio/tap/netbird`,
+        `brew install keyrotate/tap/milian`,
         `# for GUI package`,
-        `brew install --cask netbirdio/tap/netbird-ui`,
+        `brew install --cask keyrotate/tap/milian-ui`,
       ].join("\n"),
       commandsForCopy: [
-        `brew install netbirdio/tap/netbird`,
-        `brew install --cask netbirdio/tap/netbird-ui`,
+        `brew install keyrotate/tap/milian`,
+        `brew install --cask keyrotate/tap/milian-ui`,
       ].join("\n"),
       copied: false,
       showCopyButton: true,
     } as StepCommand,
     {
       key: 3,
-      title: "Start NetBird daemon:",
+      title: "Start Milian daemon:",
       commands: [
-        `sudo netbird service install`,
-        `sudo netbird service start`,
+        `sudo milian service install`,
+        `sudo milian service start`,
       ].join("\n"),
       commandsForCopy: [
-        `sudo netbird service install`,
-        `sudo netbird service start`,
+        `sudo milian service install`,
+        `sudo milian service start`,
       ].join("\n"),
       copied: false,
       showCopyButton: true,
     } as StepCommand,
     {
       key: 4,
-      title: "Run NetBird and log in the browser:",
-      commands: formatNetBirdUP(),
-      commandsForCopy: formatNetBirdUP(),
+      title: "Run Milian and log in the browser:",
+      commands: formatMilianUP(),
+      commandsForCopy: formatMilianUP(),
       copied: false,
       showCopyButton: true,
     } as StepCommand,
   ]);
 
   const onCopyClick = () => {
-    const stringToCopy = "curl -fsSL https://pkgs.netbird.io/install.sh | sh";
+    const stringToCopy = "curl -fsSL https://pkgs.keyrotate.com/install.sh | sh";
     copyToClipboard(stringToCopy);
     setCopied(true);
     setTimeout(() => {
@@ -192,7 +192,7 @@ export const LinuxTab = () => {
                 />
               )}
               <SyntaxHighlighter language="bash">
-                curl -fsSL https://pkgs.netbird.io/install.sh | sh
+                curl -fsSL https://pkgs.keyrotate.com/install.sh | sh
               </SyntaxHighlighter>
             </div>
             <Text style={{ fontWeight: "bold" }}>

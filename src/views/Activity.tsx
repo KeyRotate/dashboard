@@ -380,7 +380,7 @@ export const Activity = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://docs.netbird.io/how-to/monitor-system-and-network-activity"
+                href="https://docs.keyrotate.com/how-to/monitor-system-and-network-activity"
               >
                 Learn more
               </a>

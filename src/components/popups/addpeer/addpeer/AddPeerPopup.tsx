@@ -79,7 +79,7 @@ export const AddPeerPopup: React.FC<Props> = ({
                        textAlign: "center",
                        whiteSpace: "pre-line",
                    }}>
-            To get started, install NetBird and log in using your {"\n"} email account.
+            To get started, install Milian and log in using your {"\n"} email account.
         </Paragraph>
 
         <Tabs centered={!isMobile}
@@ -92,7 +92,7 @@ export const AddPeerPopup: React.FC<Props> = ({
             After that you should be connected. Add more devices to your network or manage your existing devices in the
             admin panel.
             If you have further questions check out our {<Link target="_blank"
-                                                               href={"https://docs.netbird.io/how-to/getting-started#installation"}>installation
+                                                               href={"https://docs.keyrotate.com/how-to/getting-started#installation"}>installation
             guide</Link>}
         </Paragraph>
     </>

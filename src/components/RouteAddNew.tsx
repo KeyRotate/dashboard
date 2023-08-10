@@ -895,7 +895,7 @@ const RouteAddNew = (selectedPeer: any) => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.netbird.io/how-to/routing-traffic-to-private-networks"
+                    href="https://docs.keyrotate.com/how-to/routing-traffic-to-private-networks"
                   >
                     {" "}
                     network routes

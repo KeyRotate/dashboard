@@ -348,7 +348,7 @@ const InviteUserPopup = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.netbird.io/how-to/add-users-to-your-network"
+                    href="https://docs.keyrotate.com/how-to/add-users-to-your-network"
                   >
                     {" "}
                     user management

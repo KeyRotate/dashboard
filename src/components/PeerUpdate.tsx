@@ -171,7 +171,7 @@ const PeerUpdate = (props: any) => {
       userEmail: users?.find((u) => u.id === peer.user_id)?.email,
       last_seen: peer.connected ? "just now" : String(timeAgo(peer.last_seen)),
       ui_version: peer.ui_version
-        ? peer.ui_version.replace("netbird-desktop-ui/", "")
+        ? peer.ui_version.replace("milian-desktop-ui/", "")
         : "",
     } as FormPeer;
     setFormPeer(fPeer);
@@ -791,7 +791,7 @@ const PeerUpdate = (props: any) => {
                                 fontWeight: "500",
                               }}
                             >
-                              NetBird IP
+                              milian IP
                             </span>
 
                             {formPeer.connected ? (
@@ -999,7 +999,7 @@ const PeerUpdate = (props: any) => {
                         type={"secondary"}
                         style={{ textAlign: "left", whiteSpace: "pre-line" }}
                       >
-                        Access other networks without installing NetBird on
+                        Access other networks without installing milian on
                         every resource.
                       </Paragraph>
                     </Col>

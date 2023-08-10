@@ -126,7 +126,7 @@ const AddPATPopup = () => {
                                    marginTop: "-23px",
                                    paddingBottom: "25px",
                                }}>
-                        {"Use this token to access NetBird's public API"}
+                        {"Use this token to access milian's public API"}
                     </Paragraph>}
                     {showPlainToken && <Paragraph type={"secondary"} style={{
                         textAlign: "start",
@@ -183,7 +183,7 @@ const AddPATPopup = () => {
                                     <a
                                         target="_blank"
                                         rel="noreferrer"
-                                        href="https://docs.netbird.io/how-to/access-netbird-public-api"
+                                        href="https://docs.keyrotate.com/how-to/access-milian-public-api"
                                     >
                                         {" "}
                                         access tokens

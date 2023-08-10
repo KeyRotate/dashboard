@@ -791,7 +791,7 @@ const NameServerGroupAdd = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://docs.netbird.io/how-to/manage-dns-in-your-network"
+                      href="https://docs.keyrotate.com/how-to/manage-dns-in-your-network"
                     >
                       {" "}
                       DNS

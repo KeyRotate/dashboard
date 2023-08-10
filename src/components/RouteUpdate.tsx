@@ -350,7 +350,7 @@ const RouteAddNew = () => {
                       marginBottom: "4px",
                     }}
                   >
-                    When you add multiple routing peers, NetBird enables high
+                    When you add multiple routing peers, Milian enables high
                     availability
                   </Paragraph>
 

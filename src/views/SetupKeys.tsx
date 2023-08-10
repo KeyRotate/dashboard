@@ -395,7 +395,7 @@ export const SetupKeys = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.netbird.io/how-to/register-machines-using-setup-keys"
+                    href="https://docs.keyrotate.com/how-to/register-machines-using-setup-keys"
                   >
                     {" "}
                     Learn more
@@ -408,7 +408,7 @@ export const SetupKeys = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.netbird.io/how-to/register-machines-using-setup-keys"
+                    href="https://docs.keyrotate.com/how-to/register-machines-using-setup-keys"
                   >
                     {" "}
                     Learn more
@@ -513,7 +513,7 @@ export const SetupKeys = () => {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://docs.netbird.io/how-to/register-machines-using-setup-keys"
+                          href="https://docs.keyrotate.com/how-to/register-machines-using-setup-keys"
                         >
                           {" "}
                           Learn more

@@ -596,11 +596,11 @@ export const Routes = () => {
                 {routes.length ? (
                   <Paragraph style={{ marginTop: "5px" }}>
                     Network routes allow you to access other networks like LANs
-                    and VPCs without installing NetBird on every resource.
+                    and VPCs without installing milian on every resource.
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://docs.netbird.io/how-to/routing-traffic-to-private-networks"
+                      href="https://docs.keyrotate.com/how-to/routing-traffic-to-private-networks"
                     >
                       {" "}
                       Learn more
@@ -609,11 +609,11 @@ export const Routes = () => {
                 ) : (
                   <Paragraph style={{ marginTop: "5px" }} type={"secondary"}>
                     Network routes allow you to access other networks like LANs
-                    and VPCs without installing NetBird on every resource.
+                    and VPCs without installing Milian on every resource.
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://docs.netbird.io/how-to/routing-traffic-to-private-networks"
+                      href="https://docs.keyrotate.com/how-to/routing-traffic-to-private-networks"
                     >
                       {" "}
                       Learn more
@@ -866,7 +866,7 @@ export const Routes = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://docs.netbird.io/how-to/routing-traffic-to-private-networks"
+                      href="https://docs.keyrotate.com/how-to/routing-traffic-to-private-networks"
                     >
                       {" "}
                       Learn more

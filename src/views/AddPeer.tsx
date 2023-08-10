@@ -40,7 +40,7 @@ export const AddPeer = () => {
                 <Row>
                     <Col span={24}>
                         <Title level={4}>Add Peer</Title>
-                        <Paragraph>To get started with NetBird just install the app and log in.</Paragraph>
+                        <Paragraph>To get started with Milian just install the app and log in.</Paragraph>
                         <Space direction="vertical" size="large" style={{ display: 'flex' }}>
                             <Tabs defaultActiveKey={openTab.toString()} onChange={onChangeTab} tabPosition="top" animated={{ inkBar: true, tabPane: false }}>
                                 <TabPane tab="Ubuntu" key="1">

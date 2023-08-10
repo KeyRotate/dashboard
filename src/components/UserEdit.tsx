@@ -485,7 +485,7 @@ const UserEdit = () => {
                     type={"secondary"}
                     style={{ textAlign: "left", whiteSpace: "pre-line" }}
                   >
-                    Access tokens give access to NetBird API
+                    Access tokens give access to Milian API
                   </Paragraph>
                 </Col>
                 <Col

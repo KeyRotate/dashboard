@@ -23,7 +23,7 @@ import { filter } from "lodash";
 import tableSpin from "../components/Spin";
 import { useGetTokenSilently } from "../utils/token";
 import { actions as groupActions } from "../store/group";
-import { capitalize, isLocalDev, isNetBirdHosted } from "../utils/common";
+import { capitalize, isLocalDev, isMilianHosted } from "../utils/common";
 import { usePageSizeHelpers } from "../utils/pageSize";
 import AddServiceUserPopup from "../components/popups/AddServiceUserPopup";
 import { ExclamationCircleOutlined } from "@ant-design/icons";
@@ -242,7 +242,7 @@ export const ServiceUsers = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.netbird.io/how-to/access-netbird-public-api"
+                    href="https://docs.keyrotate.com/how-to/access-milian-public-api"
                   >
                     {" "}
                     Learn more
@@ -255,7 +255,7 @@ export const ServiceUsers = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://docs.netbird.io/how-to/access-netbird-public-api"
+                    href="https://docs.keyrotate.com/how-to/access-milian-public-api"
                   >
                     {" "}
                     Learn more
@@ -441,7 +441,7 @@ export const ServiceUsers = () => {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://docs.netbird.io/how-to/access-netbird-public-api"
+                          href="https://docs.keyrotate.com/how-to/access-milian-public-api"
                         >
                           {" "}
                           Learn more

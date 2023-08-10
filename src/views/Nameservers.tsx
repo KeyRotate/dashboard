@@ -484,11 +484,11 @@ export const Nameservers = () => {
     <>
       {nsGroup.length ? (
         <Paragraph style={{ marginTop: "5px" }}>
-          Add nameservers for domain name resolution in your NetBird network.
+          Add nameservers for domain name resolution in your Milian network.
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://docs.netbird.io/how-to/manage-dns-in-your-network"
+            href="https://docs.keyrotate.com/how-to/manage-dns-in-your-network"
           >
             {" "}
             Learn more
@@ -496,11 +496,11 @@ export const Nameservers = () => {
         </Paragraph>
       ) : (
         <Paragraph style={{ marginTop: "5px" }} type={"secondary"}>
-          Add nameservers for domain name resolution in your NetBird network.
+          Add nameservers for domain name resolution in your Milian network.
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://docs.netbird.io/how-to/manage-dns-in-your-network"
+            href="https://docs.keyrotate.com/how-to/manage-dns-in-your-network"
           >
             {" "}
             Learn more
@@ -590,7 +590,7 @@ export const Nameservers = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://docs.netbird.io/how-to/manage-dns-in-your-network"
+                  href="https://docs.keyrotate.com/how-to/manage-dns-in-your-network"
                 >
                   {" "}
                   Learn more

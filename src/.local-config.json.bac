@@ -1,7 +1,7 @@
 {
   "auth0Auth": "true",
-  "authAuthority": "https://netbird-localdev.eu.auth0.com",
-  "authClientId": "kBRMAOqIZ7hvpVCaypQLCJvTzkYYIXVt",
+  "authAuthority": "https://dev-nu6lhydotqcmy4yq.us.auth0.com",
+  "authClientId": "XZivSlG52ytIIPffEakXiTNmjP7T5bAh",
   "authScopesSupported": "openid profile email api offline_access email_verified",
   "authAudience": "http://localhost:3000/",
 

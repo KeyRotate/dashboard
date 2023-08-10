@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {StepCommand} from "./types"
-import {formatDockerCommand, formatNetBirdUP} from "./common"
+import {formatDockerCommand, formatMilianUP} from "./common"
 import SyntaxHighlighter from "react-syntax-highlighter";
 import TabSteps from "./TabSteps";
 import {Button, Typography} from "antd";
@@ -29,7 +29,7 @@ export const DockerTab = () => {
       } as StepCommand,
       {
         key: 2,
-        title: "Run NetBird container",
+        title: "Run Milian container",
         commands: formatDockerCommand(),
         commandsForCopy: formatDockerCommand(),
         copied: false,
@@ -40,10 +40,10 @@ export const DockerTab = () => {
         title: "Read docs",
         commands: (
           <Link
-            href="https://docs.netbird.io/how-to/getting-started#running-net-bird-in-docker"
+            href="https://docs.keyrotate.com/how-to/getting-started#running-net-bird-in-docker"
             target="_blank"
           >
-            Running NetBird in Docker
+            Running Milian in Docker
           </Link>
         ),
         copied: false,

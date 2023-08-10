@@ -12,13 +12,13 @@ export const WindowsTab = () => {
             key: 1,
             title: 'Download and run Windows installer:',
             commands: (
-                <Button style={{marginTop: "5px"}} type="primary" href="https://pkgs.netbird.io/windows/x64" target="_blank">Download NetBird</Button>
+                <Button style={{marginTop: "5px"}} type="primary" href="https://pkgs.keyrotate.com/windows/x64" target="_blank">Download Milian</Button>
             ),
             copied: false
         } as StepCommand,
         {
             key: 2,
-            title: 'Click on "Connect" from the NetBird icon in your system tray',
+            title: 'Click on "Connect" from the Milian icon in your system tray',
             commands: '',
             copied: false,
             showCopyButton: false

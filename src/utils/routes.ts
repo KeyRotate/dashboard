@@ -3,9 +3,9 @@ import {Route} from "../store/route/types";
 
 export const routePeerSeparator = " - "
 
-export const masqueradeDisabledMSG = "Enabling this option hides other NetBird network IPs behind the routing peer local address when accessing the target Network CIDR. This option allows access to your private networks without configuring routes on your local routers or other devices."
+export const masqueradeDisabledMSG = "Enabling this option hides other Milian network IPs behind the routing peer local address when accessing the target Network CIDR. This option allows access to your private networks without configuring routes on your local routers or other devices."
 
-export const masqueradeEnabledMSG = "Disabling this option stops hiding all traffic coming from other NetBird peers behind the routing peer local address when accessing the target Network CIDR. You will need to configure routes for your NetBird network pointing to your routing peer on your local routers or other devices."
+export const masqueradeEnabledMSG = "Disabling this option stops hiding all traffic coming from other Milian peers behind the routing peer local address when accessing the target Network CIDR. You will need to configure routes for your Milian network pointing to your routing peer on your local routers or other devices."
 
 export const peerToPeerIP = (name: string, ip: string): string => {
     return name + routePeerSeparator + ip

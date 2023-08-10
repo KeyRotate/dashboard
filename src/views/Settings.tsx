@@ -728,7 +728,7 @@ export const Settings = () => {
                           <a
                             target="_blank"
                             rel="noreferrer"
-                            href="https://docs.netbird.io/how-to/enforce-periodic-user-authentication"
+                            href="https://docs.keyrotate.com/how-to/enforce-periodic-user-authentication"
                           >
                             {" "}
                             login expiration

@@ -587,7 +587,7 @@ export const AccessControl = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://docs.netbird.io/how-to/manage-network-access"
+                      href="https://docs.keyrotate.com/how-to/manage-network-access"
                     >
                       {" "}
                       Learn more
@@ -600,7 +600,7 @@ export const AccessControl = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://docs.netbird.io/how-to/manage-network-access"
+                      href="https://docs.keyrotate.com/how-to/manage-network-access"
                     >
                       {" "}
                       Learn more
@@ -711,7 +711,7 @@ export const AccessControl = () => {
                           <a
                             target="_blank"
                             rel="noreferrer"
-                            href="https://docs.netbird.io/how-to/manage-network-access"
+                            href="https://docs.keyrotate.com/how-to/manage-network-access"
                           >
                             {" "}
                             Learn more

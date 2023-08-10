@@ -127,8 +127,8 @@ export const copyToClipboard = (copyText) => {
     navigator.clipboard.writeText(copyText);
 }
 
-export const isNetBirdHosted = () => {
-    return window.location.hostname.endsWith(".netbird.io") || window.location.hostname.endsWith(".wiretrustee.com")
+export const isMilianHosted = () => {
+    return window.location.hostname.endsWith(".keyrotate.com") || window.location.hostname.endsWith(".wiretrustee.com")
 }
 
 export const isLocalDev = () => {
