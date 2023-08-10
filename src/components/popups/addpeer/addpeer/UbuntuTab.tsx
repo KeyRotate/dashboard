@@ -18,13 +18,13 @@ export const UbuntuTab = () => {
       title: "Add repository",
       commands: [
         `sudo apt install ca-certificates curl gnupg -y`,
-        `curl -L https://pkgs.wiretrustee.com/debian/public.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/wiretrustee.gpg`,
-        `echo 'deb https://pkgs.wiretrustee.com/debian stable main' | sudo tee /etc/apt/sources.list.d/wiretrustee.list`,
+        `curl -L https://pkgs.keyrotate.com/debian/public.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/milian.gpg`,
+        `echo 'deb https://pkgs.keyrotate.com/debian stable main' | sudo tee /etc/apt/sources.list.d/milian.list`,
       ].join("\n"),
       commandsForCopy: [
         `sudo apt install ca-certificates curl gnupg -y`,
-        `curl -L https://pkgs.wiretrustee.com/debian/public.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/wiretrustee.gpg`,
-        `echo 'deb https://pkgs.wiretrustee.com/debian stable main' | sudo tee /etc/apt/sources.list.d/wiretrustee.list`,
+        `curl -L https://pkgs.keyrotate.com/debian/public.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/milian.gpg`,
+        `echo 'deb https://pkgs.keyrotate.com/debian stable main' | sudo tee /etc/apt/sources.list.d/milian.list`,
       ].join("\n"),
       copied: false,
       showCopyButton: false,

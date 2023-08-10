@@ -128,7 +128,7 @@ export const copyToClipboard = (copyText) => {
 }
 
 export const isMilianHosted = () => {
-    return window.location.hostname.endsWith(".keyrotate.com") || window.location.hostname.endsWith(".wiretrustee.com")
+    return window.location.hostname.endsWith(".keyrotate.com") || window.location.hostname.endsWith(".keyrotate.com")
 }
 
 export const isLocalDev = () => {
